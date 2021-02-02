@@ -1,0 +1,6 @@
+- NodeJs
+- GraphQL
+- MongoDB
+- NextJs
+- ExpressJs
+- Express-GraphQL

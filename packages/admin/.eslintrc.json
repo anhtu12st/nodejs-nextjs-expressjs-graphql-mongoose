@@ -1,0 +1,76 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "amd": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb/whitespace"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "import",
+    "jsx-a11y",
+    "react-hooks"
+  ],
+  "rules": {
+    "react/prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-props-no-spreading": 0,
+    "no-use-before-define": 0,
+    "react/style-prop-object": 0,
+    "func-names": 0,
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "linebreak-style": 0,
+    "no-underscore-dangle": 0,
+    "consistent-return": 0,
+    "import/prefer-default-export": 0,
+    "no-param-reassign": 0,
+    "no-console": 1,
+    "arrow-body-style": 0,
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "import/order": 0,
+    "curly": "off",
+    "prefer-const": 2,
+    "camelcase": [
+      "error"
+    ],
+    "no-sparse-arrays": "off",
+    "no-shadow": "off",
+    "object-curly-newline": "off",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ]
+  }
+}
